@@ -14,7 +14,7 @@ export class Section extends React.Component {
         title: PropTypes.string,
     };
 
-    title = this.props.title; //записываю пропс //под копотом конструктор с со всеми наследованиями
+    title = this.props.title;
     
     state = {
         good: 0,
